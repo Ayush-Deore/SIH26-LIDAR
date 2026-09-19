@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self driving car</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    
+    <canvas id="carCanvas"></canvas>
+    <div id="verticalButtons">
+        <button onclick="save()">💾</button>
+        <button onclick="discard()">🗑️</button>
+    </div>
+    <canvas id="lidarCanvas" aria-label="Vehicle-relative LiDAR point cloud"></canvas>
+    <canvas id="semanticCanvas" aria-label="Semantic LiDAR point cloud"></canvas>
+    <canvas id="mapCanvas" aria-label="Semantic rolling 2.5D elevation map"></canvas>
+    <canvas id="networkCanvas"></canvas>
+    
+    
+    <script src="visualizer.js"></script>
+    <script src="network.js"></script>
+    <script src="saved_brain.js"></script>
+    <script src="utils.js"></script>
+    <script src="coordinate_frames.js"></script>
+    <script src="sensor.js"></script>
+    <script src="lidar.js"></script>
+    <script src="point_cloud_processor.js"></script>
+    <script src="semantic_visualizer.js"></script>
+    <script src="elevation_map.js?v=semantic-v1"></script>
+    <script src="adaptive_map.js"></script>
+    <script src="dynamic_tracker.js"></script>
+    <script src="road.js"></script>
+    <script src="controls.js"></script>
+    <script src="car.js"></script>
+    <script src="scene3d.js"></script>
+    <script src="main.js"></script>
+    
+</body>
+</html>

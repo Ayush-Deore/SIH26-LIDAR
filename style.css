@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    background-color: darkgray;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#verticalButtons{
+    display: flex;
+    flex-direction: column;
+
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    padding: 5px 5px 7px 5px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: blue;
+}
+
+#carCanvas{
+    background-color: #83bddc;
+}
+
+#lidarCanvas{
+    background-color: #101820;
+}
+
+#semanticCanvas{
+    background-color: #101820;
+}
+
+#mapCanvas{
+    background-color: #101820;
+}
+
+#networkCanvas{
+    background-color: black;
+    display: none;
+}
+
